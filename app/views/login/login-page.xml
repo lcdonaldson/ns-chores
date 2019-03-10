@@ -1,0 +1,17 @@
+<Page class="login-page-color">
+    <StackLayout backgroundColor="#FDCA45">
+        <FlexboxLayout justifyContent="center" color="#fff" marginTop="15%">
+            <Label class="login-title" text="Chores" />
+        </FlexboxLayout>
+        <FlexboxLayout>
+            
+        </FlexboxLayout>
+        <FlexboxLayout class="login-layout">
+            <TextField class="spc-sm" hint="Email Address" keyboardType="email" autocorrect="false"
+                autocapitalizationType="none" />
+            <TextField class="spc-sm" hint="Password" secure="true" />
+            <Button class="spc-sm" text="Log In" />
+            <Button class="spc-sm" text="Create Account" />
+        </FlexboxLayout>
+    </StackLayout>
+</Page>
