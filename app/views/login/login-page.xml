@@ -1,17 +1,20 @@
-<Page class="login-page-color">
+<Page class="login-page-color" loaded="loaded">
     <StackLayout backgroundColor="#FDCA45">
-        <FlexboxLayout justifyContent="center" color="#fff" marginTop="15%">
+        <FlexboxLayout justifyContent="center" color="#fff" marginTop="10%">
             <Label class="login-title" text="Chores" />
         </FlexboxLayout>
-        <FlexboxLayout>
-            
+        <FlexboxLayout justifyContent="center">
+            <!-- <i class="fas fa-broom"></i> -->
+            <Label class="fas fa-check-circle login-img" color="#fff" text="&#xf058;"/>
         </FlexboxLayout>
         <FlexboxLayout class="login-layout">
-            <TextField class="spc-sm" hint="Email Address" keyboardType="email" autocorrect="false"
-                autocapitalizationType="none" />
-            <TextField class="spc-sm" hint="Password" secure="true" />
-            <Button class="spc-sm" text="Log In" />
-            <Button class="spc-sm" text="Create Account" />
+
+            <TextField id="email" class="spc-sm input" backgroundColor="white" hint="Email" keyboardType="email" autocorrect="false"
+                autocapitalizationType="none" text="{{ email }}"/>
+            <TextField id="password" class="spc-sm input" backgroundColor="white" hint="Password" secure="true" text="{{ password }}"/>
+
+            <Button class="btn spc-sm" text="Log In" tap="logIn" backgroundColor="#6ACB9A" color="#fff" />
+            <Button class="btn spc-sm" text="Create Account" tap="createAccount" backgroundColor="orange" color="#fff"/>
         </FlexboxLayout>
     </StackLayout>
 </Page>

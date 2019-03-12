@@ -16,11 +16,27 @@ refer to http://docs.nativescript.org/ui/theme.
 For example, the following CSS rule changes the font size of all UI
 components that have the btn class name.
 */
+.far {
+    font-family: Font Awesome 5 Free, fa-regular-400;
+    font-weight: 400;
+}
+
+.fab {
+    font-family: Font Awesome 5 Brands, fa-brands-400;
+    font-weight: 400;
+}
+
+.fas {
+    font-family: Font Awesome 5 Free, fa-solid-900;
+    font-weight: 900;
+}
+
 ActionBar { background-color: yellow; }
 .action-bar-title { 
     font-weight: bold;
     font-size: 20;
 }
+
 .login-page-color {
     background-color: #FDCA45;
 }
@@ -31,7 +47,34 @@ ActionBar { background-color: yellow; }
 }
 .login-title { 
     font-family: Courier;
-    font-size: 70pt;
+    font-size: 80pt;
     font-weight: Bold;
 }
+.login-img {
+    margin-top: 10%;
+    font-family: 'FontAwesome';
+    font-size: 130em;
+}
 .spc-sm { margin-top: 2%; margin-bottom: 2%;}
+.btn {
+    border-radius: 50%;
+    height: 15%;
+    width: 80%;
+    padding: 5% 15%;
+    margin: 4%;
+    font-size: 25em;
+    font-weight: bold;
+    font-family: Courier;
+}
+.input {
+    background-color: "#fff";
+    border-radius: 50%;
+    height: 15%;
+    width: 80%;
+    padding: 5% 15%;
+    margin: 4%;
+    font-size: 25em;
+    font-family: Courier;
+    font-weight: bold;
+    color: #6ACB9A;
+}
