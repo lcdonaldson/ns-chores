@@ -15,7 +15,7 @@ exports.loaded = ((args) => {
 });
 
 exports.createAccount = (() => {
-    email = page.getViewById("password");
+    password = page.getViewById("password");
     console.log(password.text);
 });
 
