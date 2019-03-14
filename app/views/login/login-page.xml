@@ -1,11 +1,11 @@
 <Page class="login-page-color" loaded="loaded">
     <StackLayout backgroundColor="#FDCA45">
-        <FlexboxLayout justifyContent="center" color="#fff" marginTop="10%">
+        <FlexboxLayout justifyContent="center" color="white" marginTop="10%">
             <Label class="login-title" text="Chores" />
         </FlexboxLayout>
         <FlexboxLayout justifyContent="center">
             <!-- <i class="fas fa-broom"></i> -->
-            <Label class="fas fa-check-circle login-img" color="#fff" text="&#xf058;"/>
+            <Label class="fas fa-check-circle login-img" color="white" text="&#xf058;"/>
         </FlexboxLayout>
         <FlexboxLayout class="login-layout">
 
@@ -13,8 +13,8 @@
                 autocapitalizationType="none" text="{{ email }}"/>
             <TextField id="password" class="spc-sm input" backgroundColor="white" hint="Password" secure="true" text="{{ password }}"/>
 
-            <Button class="btn spc-sm" text="Log In" tap="logIn" backgroundColor="#6ACB9A" color="#fff" />
-            <Button class="btn spc-sm" text="Create Account" tap="createAccount" backgroundColor="orange" color="#fff"/>
+            <Button class="btn spc-sm" text="Log In" tap="signIn" backgroundColor="#6ACB9A" color="white" />
+            <Button class="btn spc-sm" text="Create Account" tap="register" backgroundColor="orange" color="white"/>
         </FlexboxLayout>
     </StackLayout>
 </Page>

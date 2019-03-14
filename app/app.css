@@ -55,7 +55,10 @@ ActionBar { background-color: yellow; }
     font-family: 'FontAwesome';
     font-size: 130em;
 }
-.spc-sm { margin-top: 2%; margin-bottom: 2%;}
+.spc-sm { 
+    margin-top: 2%; 
+    margin-bottom: 2%;
+}
 .btn {
     border-radius: 50%;
     height: 15%;
