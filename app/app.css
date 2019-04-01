@@ -70,7 +70,6 @@ ActionBar { background-color: yellow; }
     font-family: Courier;
 }
 .input {
-    background-color: "#fff";
     border-radius: 50%;
     height: 15%;
     width: 80%;
@@ -79,5 +78,6 @@ ActionBar { background-color: yellow; }
     font-size: 25em;
     font-family: Courier;
     font-weight: bold;
+    background-color: "#FFF";
     color: #6ACB9A;
 }
