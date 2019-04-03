@@ -12,10 +12,6 @@ refer to http://docs.nativescript.org/ui/theme.
 /* @import '~nativescript-theme-core/css/core.dark.css'; */
 /* @import "nativescript-theme-core/css/lemon.css"; */
 
-/*
-For example, the following CSS rule changes the font size of all UI
-components that have the btn class name.
-*/
 .far {
     font-family: Font Awesome 5 Free, fa-regular-400;
     font-weight: 400;
@@ -47,7 +43,7 @@ ActionBar { background-color: yellow; }
 }
 .login-title { 
     font-family: Courier;
-    font-size: 80pt;
+    font-size: 80;
     font-weight: Bold;
 }
 .login-img {
@@ -78,6 +74,6 @@ ActionBar { background-color: yellow; }
     font-size: 25em;
     font-family: Courier;
     font-weight: bold;
-    background-color: "#FFF";
+    background-color: "#FFFFFF";
     color: #6ACB9A;
 }
