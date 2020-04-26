@@ -12,6 +12,10 @@ refer to http://docs.nativescript.org/ui/theme.
 /* @import '~nativescript-theme-core/css/core.dark.css'; */
 /* @import "nativescript-theme-core/css/lemon.css"; */
 
+:root {
+    --white: #FFFFFF;
+}
+
 .far {
     font-family: Font Awesome 5 Free, fa-regular-400;
     font-weight: 400;
@@ -74,6 +78,6 @@ ActionBar { background-color: yellow; }
     font-size: 25em;
     font-family: Courier;
     font-weight: bold;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     color: #6ACB9A;
 }
