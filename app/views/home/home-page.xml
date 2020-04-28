@@ -1,18 +1,30 @@
 <Page class="page">
-	<!-- <ActionBar>
+	<ActionBar>
 		<NavigationButton text="Go Back" android.systemIcon="ic_menu_back" (tap)="onNavBtnTap()"></NavigationButton>
 		<Label text="Chores" class="action-bar-title"></Label>
-	</ActionBar> -->
+	</ActionBar>
+
+	<!-- <FlexboxLayout alignItems="stretch" flexDirection="column">
+		<Label rowspan="3" text="1" backgroundColor="#1c6b48"/>
+	</FlexboxLayout> -->
 	
-	<GridLayout class="home-wrapper" columns="95, 95, 95, 95," rows="104, 104, 104, 104, 104, 104, 104">
-		<!-- <Label text="1" row="0" col="0" colSpan="4" backgroundColor="#1c6b48"/>
-		<Label text="spl" row="1" col="0" rowSpan="2" colSpan="2" backgroundColor="pink"/>
-		<Label text="it" row="1" col="2" rowSpan="2" colSpan="2" backgroundColor="blue"/>
+	<GridLayout class="home-wrapper" columns="*, *, *, *" rows="*, *, *, *, *, *, *">
+		<Label text="1" row="0" col="0" colSpan="4" rowSpan="3" backgroundColor="#1c6b48"/>
+		
+		<!-- <Label text="spl" row="1" col="0" rowSpan="2" colSpan="2" backgroundColor="pink"/>
+		<Label text="it" row="1" col="2" rowSpan="2" colSpan="2" backgroundColor="blue"/> -->
 
 		<Label text="L" row="3" col="0" rowSpan="3" backgroundColor="red"/>
 		<Label text="C" row="3" col="1" rowSpan="3" colSpan="2" backgroundColor="purple"/>
 		<Label text="R" row="3" col="3" rowSpan="3" backgroundColor="brown"/>
 
-		<Label text="6" row="7" col="0" colSpan="4" backgroundColor="orange"/> -->
+		<GridLayout row="7" colSpan="4" columns="*, *, *, *">
+	
+			<Label row="0" col="0" class="fas" style="font-size: 70em; padding: 10em 20em; color: orange;" text="&#xf0c9;"></Label>
+			<Label row="0" col="1" class="fas" style="font-size: 70em; padding: 10em 20em; color: orange;" text="&#xf005;"></Label>
+			<Label row="0" col="2" class="fas" style="font-size: 70em; padding: 10em 20em; color: orange;" text="&#xf0f3;"></Label>
+			<Label row="0" col="3" class="fas" style="font-size: 70em; padding: 10em 20em; color: orange;" text="&#xf007;"></Label>
+			
+		</GridLayout>
 	</GridLayout>
 </Page>
