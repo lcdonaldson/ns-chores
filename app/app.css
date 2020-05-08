@@ -16,6 +16,7 @@ refer to http://docs.nativescript.org/ui/theme.
     --white: #FFFFFF;
     --yellow: #FFFF00;
     --lightGreen: #6ACB9A;
+    --orange: #FDCA45;
 }
 
 .far {
@@ -40,7 +41,7 @@ ActionBar { background-color: var(--yellow); }
 }
 
 .login-page-color {
-    background-color: #FDCA45;
+    background-color: var(--orange);
 }
 .login-layout {
     align-items: center;
